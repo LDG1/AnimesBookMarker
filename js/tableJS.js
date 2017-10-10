@@ -87,9 +87,9 @@ localStorage.dep = document.getElementById("defaultEpisode").innerHTML;
 /////////////////////////////////////////////////////////////////////DEFAULT NAME-LINK FUNCTIONS
 function defaultSubmit(){
 if(document.getElementById("defaultInputName").value !== "" || document.getElementById("defaultLinkInput").value !== ""){
-document.getElementById("defaultName").innerHTML = document.getElementById("defaultInputName").value;
+document.getElementById("defaultName").innerHTML = document.getElementById("defaultInputName").value.toUpperCase();
 document.getElementById("defaultName").href = document.getElementById("defaultLinkInput").value;
-localStorage.din = document.getElementById("defaultInputName").value;
+localStorage.din = document.getElementById("defaultName").innerHTML;
 localStorage.dli = document.getElementById("defaultLinkInput").value;
 
  document.getElementById("defaultLinkInput").value = "";
@@ -157,7 +157,7 @@ localStorage.cep = document.getElementById("createdNumber"+clicked_id.substring(
 }
 
 function createdClosefnc(clicked_id) {
-if (confirm('You realy want delete "'+document.getElementById("createdName"+clicked_id.substring(18).trim()).innerHTML.toUpperCase()+'" from your list?')) {
+if (confirm('You realy want delete "'+document.getElementById("createdName"+clicked_id.substring(18).trim()).innerHTML+'" from your list?')) {
 namearr.splice(namearr.indexOf(document.getElementById("createdName"+clicked_id.substring(18).trim()).innerHTML), 1);
 linkarr.splice(linkarr.indexOf(document.getElementById("createdName"+clicked_id.substring(18).trim()).href), 1);
 
@@ -172,7 +172,7 @@ document.getElementById("createdCell" +clicked_id.substring(18).trim()).parentNo
 function createdSubmitfnc(clicked_id){
 if(linkarr.indexOf("createdInputLink"+clicked_id.substring(19).trim()) === -1 ){
 if(document.getElementById("createdInputName"+clicked_id.substring(19).trim()).value !== "" || document.getElementById("createdInputLink"+clicked_id.substring(19).trim()).value !== ""){
-document.getElementById("createdName"+clicked_id.substring(19).trim()).innerHTML = document.getElementById("createdInputName"+clicked_id.substring(19).trim()).value;
+document.getElementById("createdName"+clicked_id.substring(19).trim()).innerHTML = document.getElementById("createdInputName"+clicked_id.substring(19).trim()).value.toUpperCase();
 document.getElementById("createdName"+clicked_id.substring(19).trim()).href =      document.getElementById("createdInputLink"+clicked_id.substring(19).trim()).value;  
 
 linkarr.push(document.getElementById("createdName"+clicked_id.substring(19).trim()).href);
