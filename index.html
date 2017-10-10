@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>Animes Bookmarker</title>
+<link rel="icon" href="http://vignette3.wikia.nocookie.net/blazblue/images/5/5c/Litchi_Faye-Ling_
+%28Centralfiction%2C_Character_Select_Artwork%29.png/revision/latest?cb=20161019133246">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-
+awesome.min.css">
+</head>
+
+<body>
+
+<audio id="beep">
+<source src="https://notificationsounds.com/message-tones/filling-your-inbox-251/download/mp3" 
+type="audio/ogg">
+<source src="https://notificationsounds.com/message-tones/filling-your-inbox-251/download/mp3" 
+type="audio/mpeg">
+</audio>
+
+<p id="workingMessage" style="position: absolute; bottom: 5px;"><font face="verdana" color="blue" 
+size="+1">If this text is appearing, then the CSS file ins't working well!</font></p>
+
+
+<div id="options">
+<p>
+<font face="verdana" color="blue">
+<strong>Made by:</strong>
+<a href="https://sites.google.com/view/nannan-senpai/home" target="_blank" style="font-family:'Courier 
+New'; font-size: 150%">NaN-NaN-senpai(BR)</a> ||| 
+<strong>Version: </strong>
+<a id="download" href="https://sites.google.com/view/nannan-senpai/scripts/html-scripts" target="_blank">If this text is appearing, then 
+the Js file ins't working well!</a>
+</font>
+</p>
+
+<div style="position: absolute; right: 2px; top: 5px;">
+<strong><font face="verdana" color="blue" size="+1">Change wallpaper: </font></strong>
+
+<input id="mudarBG" placeholder="Image link"> <input id="mudarBG2" onclick="mudarBGfnc()" 
+type="button" value="Change">
+</div>
+
+<input style="position: absolute; right: 2px; top: 44px;" id="defaultBG" type="button" value=" Default 
+" onclick="setDefaultBG()">
+</div>
+
+<div id="animeList" style="position: absolute; bottom: 5px;">
+<div id="animeListscr" class="animeList">
+<table id="myTable">
+  <tr>
+    <th>Id</th>
+	<th>Anime</th>
+    <th>Episode</th>
+    <th style="color: rgba(13, 13, 13, 0.8);">Link</th>
+  </tr>
+  <tr>
+    <td align="center">1</td>
+    <td align='center'>
+    <a class="nameclass" id="defaultName" href="https://sites.google.com/view/nannan-senpai/" 
+target="_blank">Anime Name</a><br>
+    <input class="inputclass" id="defaultInputName" placeholder="name here">
+    </td>
+
+    <td align="center">
+    <button class="pmbtn" onclick="defaultMinus()">&#8722;</button>
+    <font id="defaultEpisode">0</font>
+    <button class="pmbtn" onclick="defaultPlus()">+</button>
+    </td>
+
+    <td align="center">
+    <input class="inputclass" id="defaultLinkInput" placeholder="link here">
+    <button class="submitbtn" onclick="defaultSubmit()">submit</button>
+    </td>
+    
+    <td align="center">
+    <button id="block">&#x1f512;</button>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<br>
+<br>
+<button class="pmbtn" onclick="myCreateFunction()">+</button>
+<button class="pmbtn" style="background-color: red;" onclick="deleteallfnc()">delete all</button>
+
+</div>
+
+<button onclick="openList(); if(document.getElementById('clList').innerHTML === 'Open list')
+{document.getElementById('clList').innerHTML = 'Close list'}else{document.getElementById
+('clList').innerHTML = 'Open list'}" id="clList" style="position: absolute; bottom: 5px; left: 230px;">Open list</button>
+
+<button onclick="downloadlst()" id="downloadlst" style="position: absolute; bottom: 5px; left: 100px;">Download list</button>
+
+<button id="opensitesbtn" onclick="abrirAnimes()" align="center">Open all animes</button>
+
+<button id="OCoptions" onclick="OCoptions()"><i style="font-size:100px" class="fa">&#xf013;</i> 
+</button>
+
+
+<link rel="stylesheet" type="text/css" href="css\AnimeBookmarkerCSS.css">
+<script src="js\AnimeBookmarkerJS.js"></script>
+
+<link rel="stylesheet" type="text/css" 
+href="css\tableCSS.css" >
+<script src="js\tableJS.js"></script>
+</html>

@@ -1,0 +1,194 @@
+
+/* OPTIONS NBUTTON */
+#OCoptions{
+	background-image: url(http://www.qygjxz.com/data/out/10/6064612-anime-girl-wallpaper.png);
+ 
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top !important;
+background-repeat: no-repeat !important;
+	
+	border-radius: 99px;
+ position: absolute;
+ right: 2px; 
+ bottom: 5px;
+ padding:0px 4px;
+  font-family:helvetica;
+  font-size:16px;
+  font-weight:100;
+  color: rgba(0, 0, 0, 0.8);
+  border:0;
+  font-weight:100;
+}
+#OCoptions:hover{
+  color: rgba(0, 0, 0, 0.9);
+}
+#OCoptions:active {
+  color: rgba(0, 0, 0, 1.0);
+  transform: translateY(4px);
+}
+
+/* WORKCHECKER MESSAGE */
+#workingMessage{
+opacity: 0;
+}
+ 
+/* INPUT AND BUTTON MUDARBG */
+#mudarBG2, #defaultBG{
+	
+  padding:7px 16px;
+  border-radius: 8px;
+  font-family:helvetica;
+  font-size:20px;
+  font-weight:100;
+  color: orange;
+  border:0;
+  font-weight:100;
+}
+#defaultBG:hover{
+	border-radius: 10px;
+}
+#defaultBG:active {
+border-radius: 999px;
+  transform: translateY(4px);
+}
+
+#defaultBG{
+	background-image: url(https://livewallpaper.info/wp-content/uploads/2017/08/Resultado-de-imagen-para-anime-girls-and-boys-wallpaper-wp80011557.jpg);
+ 
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top !important;
+background-repeat: no-repeat !important;
+}
+
+#mudarBG2 {
+	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/50/52/e8/5052e88a75ec3ed7758d49b60c9991df.jpg);
+ 
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top !important;
+background-repeat: no-repeat !important;
+}
+
+#mudarBG2:hover{
+ border-radius: 10px;
+}
+#mudarBG2:active {
+  border-radius: 999px;
+  transform: translateY(4px);
+}
+ 
+#mudarBG{
+  padding:7px 16px;
+  border-radius: 999px;
+  font-family:helvetica;
+  font-size:16px;
+  font-weight:100;
+  color:#fff;
+  border:1;
+  font-weight:100;
+  border-style: solid;
+  border-color: #000;
+  background-color: rgba(88, 114, 134, 0.7);
+}
+#mudarBG:hover{
+  background: rgba(88, 114, 134, 1);
+}
+#mudarBG:active {
+  background-color: #2b4355;
+  transform: translateY(4px);
+}
+ 
+/* WALLPAPER */
+body {
+background-image: url(http://hdwallpaper.info/wp-content/uploads/bfi_thumb/cute-anime-girl-wallpaper-hd-n2nvi8veegmrtbd7crlon50iua9xrug2oklh0ntx7k.jpg); 
+ 
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+}
+
+#clList {
+	background-image: url(https://img00.deviantart.net/d1c4/i/2016/162/1/2/anime_lake_girl_wallpaper_by_letfio-da32hm5.jpg);
+ 
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top !important;
+background-repeat: no-repeat !important;
+	
+padding:6px 15px;
+font-family:helvetica;
+  font-size:16px;
+    color: rbg(0,0,0);
+    border:0;
+	border-radius: 8px;
+}
+#clList:hover{
+  border-radius: 10px;
+}
+#clList:active{
+transform: translateY(4px);
+border-radius: 999px;
+}
+ 
+/* BUTTON STYLES */
+#downloadlst{
+background-image: url(https://onehdwallpaper.com/wp-content/uploads/2015/07/Stylish-Anime-Girls-HD-Wallpapers.jpg);
+ 
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top !important;
+background-repeat: no-repeat !important;
+	
+padding:6px 15px;
+font-family:helvetica;
+  font-size:16px;
+    color: rbg(0,0,0);
+    border:0;
+	border-radius: 8px;
+}
+#downloadlst:hover{
+  border-radius: 10px;
+}
+#downloadlst:active{
+transform: translateY(4px);
+border-radius: 999px;
+}
+
+#opensitesbtn{
+	background-image: url(https://wallpaper.wiki/wp-content/uploads/2017/05/Anime-Girl-Wallpapers-High-Resolution-Free-Download.jpg);
+ 
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top !important;
+background-repeat: no-repeat !important;
+
+	
+	border-radius: 8px;
+  padding:16px 32px;
+  font-family:helvetica;
+  font-size:30px;
+  font-weight:100;
+  border:0;
+  color:Orange;
+  font-weight:100;
+   margin:0 auto;
+   display:block;
+}
+#opensitesbtn:hover{
+  background-position: 50% 5% !important;
+}
+#opensitesbtn:active {
+  background-position: 50% 25% !important;
+  transform: translateY(4px);
+}

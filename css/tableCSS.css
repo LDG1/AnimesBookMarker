@@ -1,0 +1,87 @@
+#animeListscr::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+	border-radius: 10px;
+	background-color: #CCCCCC;
+}
+
+#animeListscr::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#animeListscr::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #D62929;
+	background-image: -webkit-linear-gradient(90deg,
+											  transparent,
+											  rgba(0, 0, 0, 0.4) 50%,
+											  transparent,
+											  transparent)
+}
+
+
+th{
+color: white;
+
+}
+
+#block{
+background-color: yellow;
+border-radius: 8px;
+border: none;
+}
+
+.submitbtn {
+background-color: rgb(153, 51, 51);
+border-radius: 8px;
+border: none;
+}
+
+.closebtn {
+border-radius: 8px;
+border: none;
+}
+
+.pmbtn {
+border-radius: 8px;
+border: none;
+background-color: #66ccff;
+}
+
+.animeList{
+    display: inline-block;
+    overflow-y: scroll;
+	max-height: 400px;
+}
+
+
+table{
+    border-radius: 20px;
+	font-family:helvetica;
+	background: url(https://wallpaper.wiki/wp-content/uploads/2017/05/Anime-Girl-Wallpapers-High-Resolution.jpg);
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: right top !important;
+	background-repeat: no-repeat !important;
+    padding: 20px; 
+}
+
+.inputclass {
+border-radius: 5px;
+border:none;
+text-align: center;
+}
+
+.nameclass {
+color: rgba(13, 13, 13, 0.8);
+font-weight: 900;
+}
+
+td {
+	border-radius: 8px;
+    background:	rgba(255, 255, 255, 0.3)
+}
