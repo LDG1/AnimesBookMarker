@@ -114,7 +114,7 @@ trCount ++;
     
 	rr.innerHTML = trCount;
 	
-    cell1.innerHTML = '<a class="nameclass" id="createdName'+trCount+'" href="https://sites.google.com/view/nannan-senpai/" target="_blank">Anime Name</a><br><input class="inputclass" id="createdInputName'+trCount+'" placeholder="name here">';
+    cell1.innerHTML = '<a class="nameclass" id="createdName'+trCount+'" href="https://sites.google.com/view/nannan-senpai/" target="_blank">ANIME NAME</a><br><input class="inputclass" id="createdInputName'+trCount+'" placeholder="name here">';
     
     cell2.innerHTML = '<button class="pmbtn" id="createdMinusButton'+trCount+'" onclick="createdMinusfnc(this.id)">&#8722;</button><font id="createdNumber'+trCount+'"> 0 </font><button class="pmbtn" id="createdPlusButton'+trCount+'" onclick="createdPlusfnc(this.id)">+</button>';
     
@@ -156,8 +156,8 @@ document.getElementById("createdNumber"+clicked_id.substring(17).trim()).innerHT
 localStorage.cep = document.getElementById("createdNumber"+clicked_id.substring(18).trim()).innerHTML;
 }
 
+if (confirm('You realy want delete "'+document.getElementById("createdName"+clicked_id.substring(18).trim()).innerHTML+'" from your list?\nid: '+clicked_id.substring(18).trim()+'\nLink: '+document.getElementById("createdName"+clicked_id.substring(18).trim()).href.substring(37, 0)+'...')) {
 function createdClosefnc(clicked_id) {
-if (confirm('You realy want delete "'+document.getElementById("createdName"+clicked_id.substring(18).trim()).innerHTML+'" from your list?')) {
 namearr.splice(namearr.indexOf(document.getElementById("createdName"+clicked_id.substring(18).trim()).innerHTML), 1);
 linkarr.splice(linkarr.indexOf(document.getElementById("createdName"+clicked_id.substring(18).trim()).href), 1);
 

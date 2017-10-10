@@ -1,4 +1,4 @@
-var version = "ONLINE! 1.19.68"
+var version = "ONLINE! 1.19.74"
 var defaultBG = "http://hdwallpaper.info/wp-content/uploads/bfi_thumb/cute-anime-girl-wallpaper-hd-n2nvi8veegmrtbd7crlon50iua9xrug2oklh0ntx7k.jpg";
 
 document.getElementById('options').style.display = "none";
