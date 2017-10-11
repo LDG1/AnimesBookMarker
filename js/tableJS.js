@@ -125,7 +125,7 @@ trCount ++;
 
 function deleteallfnc(){
 if (confirm('You realy want delete ALL ANIMES inside the list?')) {
-	localStorage.din = "Anime Name";
+	localStorage.din = "ANIME NAME";
 	localStorage.dli = "https://sites.google.com/view/nannan-senpai/";
 	document.getElementById("defaultName").innerHTML = localStorage.din;
 	document.getElementById("defaultName").href = localStorage.dli;
