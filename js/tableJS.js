@@ -13,7 +13,7 @@ document.getElementById("defaultName").innerHTML = localStorage.din;
 document.getElementById("defaultName").href = localStorage.dli;
 
 }else{
-localStorage.din = "Anime Name";
+localStorage.din = "ANIME NAME";
 localStorage.dli = "https://sites.google.com/view/nannan-senpai/";
 }//name and input
 
