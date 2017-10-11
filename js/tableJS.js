@@ -156,8 +156,8 @@ document.getElementById("createdNumber"+clicked_id.substring(17).trim()).innerHT
 localStorage.cep = document.getElementById("createdNumber"+clicked_id.substring(18).trim()).innerHTML;
 }
 
-if (confirm('You realy want delete "'+document.getElementById("createdName"+clicked_id.substring(18).trim()).innerHTML+'" from your list?\nid: '+clicked_id.substring(18).trim()+'\nLink: '+document.getElementById("createdName"+clicked_id.substring(18).trim()).href.substring(37, 0)+'...')) {
 function createdClosefnc(clicked_id) {
+if (confirm('You realy want delete "'+document.getElementById("createdName"+clicked_id.substring(18).trim()).innerHTML+'" from your list?\nid: '+clicked_id.substring(18).trim()+'\nLink: '+document.getElementById("createdName"+clicked_id.substring(18).trim()).href.substring(37, 0)+'...')) {
 namearr.splice(namearr.indexOf(document.getElementById("createdName"+clicked_id.substring(18).trim()).innerHTML), 1);
 linkarr.splice(linkarr.indexOf(document.getElementById("createdName"+clicked_id.substring(18).trim()).href), 1);
 
