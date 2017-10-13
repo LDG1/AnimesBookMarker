@@ -238,7 +238,7 @@ span.green {
     
     &:before,
     &:after {
-        content:'';
+        content:'GLIx_tCH';
         position: absolute;
         top: 0;
         left: 0;
@@ -258,6 +258,7 @@ span.green {
     
     &:hover {
         .link-inner {
+			content:'GLIx_tCH';
             animation: glitchy 0.3s ease 1;
         }
 
