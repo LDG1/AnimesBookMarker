@@ -173,6 +173,10 @@ background-size: cover;
 background-position: top !important;
 background-repeat: no-repeat !important;
 
+	position: absolute;
+	top: 50%;
+	right: 40%;
+	z-index: -1;
 	
 	border-radius: 8px;
   padding:16px 32px;
